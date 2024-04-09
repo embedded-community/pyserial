@@ -157,6 +157,10 @@ Native ports
             Returns an instance of :class:`bytes` when available (Python 2.6
             and newer) and :class:`str` otherwise.
 
+    .. method:: read_all()
+
+        Read all bytes in the receive buffer.
+
     .. method:: read_until(expected=LF, size=None)
 
         :param expected: The byte string to search for.
